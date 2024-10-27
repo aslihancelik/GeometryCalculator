@@ -1,5 +1,12 @@
 // GeometryCalculator.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
+//
+// This program provides a menu with the options to calculate the areaa of a circle, rectangle and triangle.
+// The menu also provides the option to exit. The program does input validation to make sure the input are
+// nonnegative to make the area calculations.
+//
+// Programmer: Aslihan Celik
+// Date: 10/26/2024
 
 #include <iostream>
 #include <cmath>
@@ -81,7 +88,6 @@ int main()
             break;
         case 4:
             cout << "Exiting the program..." << endl;
-            exit;
             break;
         default:
             cout << "You entered an invalid number. Please try again." << endl;
